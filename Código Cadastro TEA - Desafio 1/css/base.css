@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --cor-primaria: #1c1c1c;
+    --cor-secundaria:#afafaf;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+table.table {
+    box-shadow: 0 0 10px 0 #155fd6e6;
+}
+
+button.btn{
+    min-width: 80px;
+}
+
+#loading{
+    display: none;
+}
+
+.navbar > a {
+    font-size: 35px;
+}
+
+.logo-navbar {
+    width: 50px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 5px;
+    border-radius: 30px;
+}
+
+.icone-navbar {
+    width: 50px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 5px;
+    border-radius: 30px;
+}
+
+.navbar-brand, .nav-link{
+    font-weight: 800;
+    color: #ddd;
+}
+
+.nav-link:hover {
+    background: #1461e5bc;
+    border-radius: 10px;
+    color: #afafaf;
+}
+
+.navbar-brand:hover {
+    color: #ddd;
+}
+
+.logout {
+    margin-left: 865px;
+    font-size: 20px;
+}
+
+.puzzle-piece {
+    width: 20px;
+}
+
+.icone-editar {
+    border: none;
+}
+
+.icone-editar:hover {
+    background: #80ffff80;
+}
+
+.icone-excluir:hover {
+    background: #80ffff80;
+}
+
+.icone-excluir {
+    border: none;
+}
+
+.editar {
+    width: 20px;
+    height: auto;
+}
+
+.excluir {
+    width: 20px;
+    height: auto;
+}
+
+.title {
+    color: #0f0f0f;
+    font-weight: 600;
+    margin-left: 10px;
+}

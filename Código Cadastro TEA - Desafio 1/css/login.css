@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background: #1680e39d;
+}
+
+.tela-login {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elementos-tela {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.elementos-tela > h1 {
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    color: #FFF;
+    margin-bottom: 40px;
+}
+
+.elementos-tela > img {
+    width: 15vw;
+}
+
+.caixa-login {
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-login {
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    border: 2px solid #000000;
+    padding: 20px;
+    border-radius: 20px;
+    background: #64b1de;
+}
+
+.titulo-login{
+    text-align: center;
+    color: var(--cor-primaria);
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.grupo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.grupo > label {
+    font-size: 14px;
+    margin-left: 5px;
+    font-weight: 600;
+    margin-bottom: -20px;
+}
+
+.grupo > input {
+    background: #dfdfdf;
+    padding: 8px;
+    width: 100%;
+    border-radius: 2px;
+    border: 2px solid #000;
+    outline: none;
+    border-radius: 10px;
+    color: #000;
+    font-weight: 500;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.grupo > input::placeholder {
+    color: #00000092;
+}
+
+#senha {
+    margin-bottom: -10px;
+}
+
+#btn-entrar {
+    width: 200px;
+    height: auto;
+    padding: 8px;
+    margin: 0px;
+    margin-top: 10px;
+    border: 2px solid #00000056;
+    border-radius: 10px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: #dfdfdf;
+    background: var(--cor-primaria);
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+#btn-entrar:hover {
+    cursor: pointer;
+    background-color: var(--cor-secundaria);
+}
+
+
+#texto-esqueci-senha {
+    font-style: italic;
+    margin-left: 60px;
+}
+
+.esqueci-minha-senha a {
+    color:var(--cor-primaria);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.esqueci-minha-senha a:hover {
+    color:var(--cor-secundaria);
+}
+
+.imagem-principal{
+    width: 200px;
+    height: auto;
+}
+
+.logos {
+    width: 200px;
+    height: auto;
+    margin-top: 50px;
+}
